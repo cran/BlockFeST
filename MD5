@@ -1,5 +1,5 @@
-4e108d0633445962d7fbee2ad34e18da *DESCRIPTION
-f533c472e242307e0a82ea5afddd4422 *NAMESPACE
+68de9b6124992487a0c0b2213c545068 *DESCRIPTION
+55fcbfda873724ae07591ac8bb434649 *NAMESPACE
 846c8b55aff95038e2af1ce3f0292d02 *R/BAYESRETURN.R
 c14569dcaa47a373bc826e7d21a57f61 *R/calc.L.R
 4d20e68ff3317ce7056a612d6a347095 *R/calcPval.R
@@ -9,14 +9,15 @@ c14569dcaa47a373bc826e7d21a57f61 *R/calc.L.R
 c72c41989223367c0801b9a7e87649fa *R/my_dlaplace.R
 9837eb0fc042fad21b6f1c2556d9bd5a *R/my_math.R
 ed779061a8e7ff6a97bb6bfabaf296d0 *R/my_rdirichlet.R
+108663c321c86ed77d20d134f21e6cdb *R/plotQ.R
 189b38a65cdddf9aca2c02069d64c679 *R/progress.R
-7691331b64493fbb092d4c12c67b8e80 *R/slim.R
+af1a1cb0ce3faacee8b55b382c5e45ff *R/slim.R
 2a21efb9a20e0ca9d93e0ce92a2eb268 *R/update_slim.R
 503a30e52a76e8b110a87bbdca9f6cbc *R/update_slim2.R
 7f7c132dad7b26af1dcf0d470457849e *R/update_slim3.R
 86932def60f2908973b351e18b81ab3c *build/vignette.rds
 854ceeea9a6ac3241064eab1c7ce7bbc *inst/doc/Input_format.Rnw
-eed681a274a14664abfe7f7f2067b414 *inst/doc/Input_format.pdf
+1e1930bead9733ed6ed12b608e92dd7b *inst/doc/Input_format.pdf
 f190b263d1fcc63a7219d0b725664fa5 *inst/extdata/groups.txt
 faeb54f44dbb341bf27e7514a1135d68 *inst/extdata/snps.txt
 200ea30cad369afd19e7eb424d572eed *man/BlockFeST.Rd
