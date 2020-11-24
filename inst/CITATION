@@ -1,0 +1,17 @@
+citHeader("To cite the BlockFeST package in publications use:")
+
+citEntry(
+
+entry="Article",
+title = "BlockFeST: Bayesian calculation of region-specific FST to detect local adaptation",
+journal= "Bioinformatics",
+year = "2018",
+author = c(person("Bastian", "Pfeifer"),
+person(c("Martin", "J."), "Lercher")),
+volume = "34",
+pages = "3205-3207",
+doi = "10.1093/bioinformatics/bty299",
+textVersion = "Bastian Pfeifer, Martin J Lercher, BlockFeST: Bayesian calculation of region-specific FST to detect local adaptation, Bioinformatics, Volume 34, Issue 18, 15 September 2018, Pages 3205-3207, https://doi.org/10.1093/bioinformatics/bty299"
+
+)
+
