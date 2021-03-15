@@ -44,10 +44,13 @@ modification <- FALSE
 
 
            		 BBB2$GROUP      <- GGG
-          		 BBB2$N.REGIONS  <- length(unique(GROUP))
+          		 BBB2$N.REGIONS  <- length(unique(GGG))
+  			 #print(BBB2$GROUP)
+			 #print(BBB2$N.REGIONS)
          	 }
-
-
+#@FIXME
+#print("check")
+#return(list(group=BBB2$GROUP, n.regions=BBB2$N.REGIONS))
 
 		myheader <- scan(name,what="",nlines=5)
 
@@ -56,7 +59,9 @@ modification <- FALSE
 		#read out population number
 		popnum <- as.integer(sub("\\[populations\\]=", "", myheader[2]))
 
-
+		#@FIXME
+		#cat("locnum:", locnum,"\n")
+		#cat("popnum:", popnum,"\n")
 
 		#import file
 		if(myheader[3] == "[pop]=1" )  {
@@ -73,6 +78,8 @@ modification <- FALSE
 		}
 
 		 population <- import_file(modus, name, locnum, popnum) # extract dataset from file	
+		 #@FIXME
+		 #return(population)
 		 population <- lapply(population,function(x)            # delete redundant data
 		{ 
 		return(x[,-(1)])
@@ -81,7 +88,7 @@ modification <- FALSE
 
 		hapcount <- population[[1]][1,2]
          		
-        
+        	#print(hapcount)
 
         ### INPUT is an R-object
 	} else {
@@ -116,6 +123,9 @@ modification <- FALSE
            population[[xx]] <- population[[xx]][-delete,]
          }
 	}
+
+	#@FIXME
+	#return(population)	
 
  	 BBB2$sample_size <- sapply(population,function(x){return(x[,1])})	       
          locnum           <- locnum - length(delete)

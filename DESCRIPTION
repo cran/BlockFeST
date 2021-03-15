@@ -2,8 +2,8 @@ Package: BlockFeST
 Type: Package
 Title: Bayesian Calculation of Region-Specific Fixation Index to Detect
         Local Adaptation
-Version: 1.8
-Date: 2020-11-20
+Version: 2.0
+Date: 2021-03-12
 Author: Bastian Pfeifer
 Maintainer: Bastian Pfeifer <bastianxpfeifer@gmail.com>
 Depends: R (>= 2.14.2), BASIX
@@ -13,6 +13,6 @@ Description: An R implementation of an extension of the 'BayeScan' software (Fol
 License: GPL-2
 LazyLoad: yes
 NeedsCompilation: yes
-Packaged: 2020-11-24 08:58:54 UTC; bastian
+Packaged: 2021-03-12 21:11:01 UTC; bastian
 Repository: CRAN
-Date/Publication: 2020-11-24 10:30:10 UTC
+Date/Publication: 2021-03-15 01:30:02 UTC
